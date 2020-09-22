@@ -1,0 +1,20 @@
+{
+  "name": "preact-duet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rollup -c rollup.config.js",
+    "serve": "serve public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@duetds/date-picker": "1.0.1",
+    "@rollup/plugin-node-resolve": "9.0.0",
+    "preact": "10.4.8",
+    "rollup": "2.28.1",
+    "serve": "11.3.2"
+  }
+}

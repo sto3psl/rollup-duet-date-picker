@@ -1,5 +1,15 @@
 # Bundling `@duetds/date-picker` with Rollup
 
+**When using a bundler (like Rollup) use:**
+
+```js
+import { defineCustomElements } from "@duetds/date-picker/custom-element";`
+```
+
+---
+
+> The below text is only for reference if anyone is running into issues with the `@duetds/date-picker/dist/esm/loader` import.
+
 Currently `@duetds/date-picker` does not work with Rollup (or I didn't get it to).
 The problem appears to be a dynamic import statement with a template string:
 

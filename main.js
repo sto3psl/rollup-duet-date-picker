@@ -1,3 +1,3 @@
-import { defineCustomElements } from "@duetds/date-picker/dist/esm/loader";
+import { defineCustomElements } from "@duetds/date-picker/custom-element";
 
 defineCustomElements(window);
